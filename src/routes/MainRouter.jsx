@@ -7,7 +7,7 @@ import MovieDetail from '../pages/movieDetail/MovieDetail'
 const MainRouter = () => {
   const router = useRoutes([
     {path: '/', element: <Home />},
-    {path: '/movie/:id', element: <MovieDetail />},
+    {path: '/movie/:id', element: <MovieDetail />}
   ])
   
   return router
