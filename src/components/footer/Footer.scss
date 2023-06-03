@@ -24,5 +24,22 @@
         }
       }
     }
+    
+    .copyright{
+      font-size: .7rem;
+    }
+  }
+}
+
+
+@media (max-width: 390px){
+  .footer{ 
+    &__container{
+      ul{
+        .footer-icon{
+          font-size: 1.5rem;
+        }
+      }
+    }
   }
 }

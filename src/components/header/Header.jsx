@@ -8,12 +8,23 @@ import { FaSearch } from 'react-icons/fa'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const Header = () => {
+const Header = (props) => {
 
   //Animation AOS
   useEffect(() => {
     AOS.init();
   }, []);
+
+  //Submit event
+  const handleSearchSubmit = (e) =>{
+    e.preventDefault()
+
+    const searchValue = e.target[0].value
+    props.onSubmit(searchValue)
+
+    e.target[0].value = ''
+}
+
 
   return (
     <div className='header aos-init'>
@@ -25,7 +36,9 @@ const Header = () => {
       </div>
       <div className="header__search">
         <FaSearch className='search-icon'/>
-        <input type="search" placeholder='Digite o filme' />
+        <form onSubmit={handleSearchSubmit}>
+          <input type="search" placeholder='Digite o filme' />
+        </form>
       </div>
     </div>
   )

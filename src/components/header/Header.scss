@@ -35,24 +35,28 @@
     display: flex;
     justify-content: end;
     
-    input{
-      width: 60%;
-      height: 30px;
-      border-radius: 5px;
-      border: none;
-      padding: 10px;
-      background-color: #333;
-      transition: .3s;
+    form{
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      input{
+        width: 60%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        background-color: #333;
+        transition: .3s;
 
-      &::placeholder{
-        color: #999;
-      }
-      &:focus{
-        outline: none;
-        background-color: #FFF;
+        &::placeholder{
+          color: #999;
+        }
+        &:focus{
+          outline: none;
+          background-color: #FFF;
+        }
       }
     }
-
     .search-icon{
       position: absolute;
       right: 15px;
@@ -81,10 +85,12 @@
     }
   
     &__search{
-      input{
-        width: 100%;
-        &::placeholder{
-          font-size: .7rem;
+      form{
+        input{
+          width: 100%;
+          &::placeholder{
+            font-size: .7rem;
+          }
         }
       }
     }
@@ -95,7 +101,7 @@
   .header{
     &__logo-title{
        h1{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
       }
     }
   
@@ -106,9 +112,11 @@
     }
   
     &__search{
-      input{
-        &::placeholder{
-          font-size: .6rem;
+      form{
+        input{
+          &::placeholder{
+            font-size: .6rem;
+          }
         }
       }
     }
