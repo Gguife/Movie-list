@@ -10,7 +10,7 @@
   Projeto criado para sa organzação dos seus objetivos diários, facilitar e melhorar sua qualidade de vida. </br>
   Essa nova versão conta com uma melhoria na interface, melhorias de usuabiliadade implementas e completamente funcionais.
   
-  Veja o projeto: <a href='https://gguifemovie-list.vercel.app/G'>To-do Gguife</a>
+  Veja o projeto: <a href='https://gguifemovie-list.vercel.app/'>To-do Gguife</a>
 
 <hr>
 
