@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>MovieList Gguife</h1>
-  	<p>Tudo sobre filmes</p>
+  	<p>Tudo sobre os seus filmes favoritos</p>
 </div>
 
 <hr>
