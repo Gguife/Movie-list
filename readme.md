@@ -1,16 +1,6 @@
 <div align="center">
 	<h1>MovieList Gguife</h1>
-  <br>
-  <p>Tudo sobre filmes</p>
-	<br>
-	<p align="center">
-		<a href="https://www.linkedin.com/in/guilherme-gomes-b09444254/">
-		  <img alt="made by" src="https://img.shields.io/badge/made%20by-Guilherme%20Gomes-orange">
-		</a>
-		<a href="https://github.com/Gguife">
-		  <img alt="last commit" src="https://img.shields.io/github/last-commit/felipejsborges/felipejsborges">
-		</a>
-	</p>
+  	<p>Tudo sobre filmes</p>
 </div>
 
 <hr>
